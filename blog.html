@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Website for Book-Readers!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair&family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="blog">
+        <nav>
+            <a href="index.html"><img src="images/my_logo.png"></a>
+            <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="fiction.html">FICTION</a></li>
+                    <li><a href="non-fiction.html">NON-FICTION</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onlick="showMenu()"></i>    
+        </nav>
+        <h1>Blog</h1>
+        </section>
+
+<section class="blog-content">
+
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/importance.jpg">
+            <h2>Importance of Reading</h2>
+            <p>In Modern world, young adults tend to spend their time, or what they call it, free-time by solely scrolling thrrough instagram and other social media platforms. It not only affects their mental well-being but also instill severe feelings of insecurity, stess, anxiety, pressure and depression. Hence, indulging in the practise of reading atleast 10 pages a day is important for us. Not only does it enhnace our vocalbulary, but also the genre of our interest boosts feelings of curiosity, excitement, inquisitiveness and most importantly, HAPPINESS. One becomes more self-aware by choosing the best fit for themselves.</p>
+            <br>
+            <p>The process of picking out a good read for our ownselves is like picking out a customised tonic to cure us. It builds a feeling of being re-assured of our likes and dislikes, interests on that matter. It is like therapy. It brings us closer to ourselves. Also, investing time in something we like, is great. Isnt it? Finishing a book gives a sense of achievment, a feeling of success. It boots the confidence of our conscious fellows who give up to easily.</p>
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <textarea rows="5" placeholder="How does reading make you feel?"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Benefits</h3>
+            <div>
+                <span>Excercise for brain</span>
+            </div>
+            <div>
+                <span>Improve concentration</span>
+            </div>
+            <div>
+                <span>Improve vocabulary</span>
+            </div>
+            <div>
+                <span>Better sleep</span>
+            </div>
+            <div>
+                <span>Reduces stress</span>
+            </div>
+            <div>
+                <span>Enhances creativity</span>
+            </div>
+            <div>
+                <span>Improves general knowledge</span>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class="blog-content2">
+    <div class="row">
+        <div class="blog-left-left">
+            <img src="images/howtoread.jpg">
+            <h2>How To Read</h2>
+            <p>Reading for beginners can be a little tough. But, with time, the speed and level of imagination will eventually increase. It might become a little hard to build focus at the very start, you might feel distracted and disconnected in your initial days. But trust me, it is all about having "Patience". Just trust the process and allow yourself to fall in love with reading. These are some tips for fellow readers which they can follow but not necessarily, do what works for you the best.</p>
+            <br>
+            <p class="howtoread">
+                <li>Create your corner for reading. Let it be your quiet space where you can just be yourself and read. Keep your books there, install warm coloured lights. Custmosise the room with your choices.</li>
+                <li>If you are a beginner, try timer-based reading. Set time for yourself everyday. Give yourself time to adjust and to be able to read more when this new hobby becomes habit.</li>
+                <li>Avoid touching your phone at all while reading. This will help you be more focused and enjoy the process more.</li>
+                <li>Avoid using dictionaries and searching for words too often. You might understand the meaning of a word as you read the upcoming sentences. Being stuck, reduces fluency and speed.</li>
+                <li> Journaling about what you read in a day, whenever you get time. This makes you get involved more in the process.</li>
+            </p>
+        </div>
+        <div class="blog-right-right">
+            <h3>Things to do</h3>
+            <div>
+                <span>Trust the process</span>
+            </div>
+            <div>
+                <span>Allow yourself to take time</span>
+            </div>
+            <div>
+                <span>Create your reading space</span>
+            </div>
+            <div>
+                <span>Customise selection</span>
+            </div>
+            <div>
+                <span>Read in silence</span>
+            </div>
+            <div>
+                <span>Use bookmarks</span>
+            </div>
+            <div>
+                <span>Tabbing and Highlighting</span>
+            </div>
+        </div>
+    </div>
+</section>
+            
+
+        
+     
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>This is an online site which guides fellow readers, beginners and all the other young adults to connect<br>with the world of reading. We have sorted 5 star reads from all over<br>the world in all genres for our readers. Also, we aim at bringing the trend<br>of reading back again in our youth.</p>
+    <p><i>Made by <b>Vanshita</b> </i></p>
+</section>
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";    
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+</body>
+</html>

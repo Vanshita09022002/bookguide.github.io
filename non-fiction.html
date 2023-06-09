@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Website for Book-Readers!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair&family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header-non">
+        <nav>
+            <a href="index.html"><img src="images/my_logo.png"></a>
+            <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="fiction.html">FICTION</a></li>
+                    <li><a href="non-fiction.html">NON-FICTION</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onlick="showMenu()"></i>    
+        </nav>
+    <h1>Non-Fiction</h1>
+    </section>     
+ 
+
+
+<section class="coverage">
+    <h1>Types of Non-Fiction books</h1>
+    <p><i>A Non-Fiction book can be based on the life of a great personality, events of the past, idealogies and views of a person and so much more!</i></p>
+    
+    <div class="row">
+        <div class="course-col">
+            <img src="images/biography.jpg">
+            <div class="layer">
+                <h3>Biography</h3>
+            </div>
+        </div>
+        <div class="course-col">
+            <img src="images/history.jpg">
+            <div class="layer">
+                <h3>History</h3>
+            </div>
+        </div>
+        <div class="course-col">
+            <img src="images/philosophy.jpg">
+            <div class="layer">
+                <h3>Philosophy</h3>
+            </div>
+        </div>
+        
+    </div>
+</section>
+<section class="fiction">
+
+    <div class="row">
+        <div class="fiction-col">
+            
+
+            <table class="non-table">
+                
+                <thead><h2><i><u>BEST PICKS FOR YOU</u></i></h2></thead>
+                <tr>
+                    <th>Author</th>
+                    <th>Book Title</th>
+                </tr>
+                
+                <tbody class="non-body">
+                    <tr>
+                        <td>Jay Shetty</td>
+                        <td>Life of a monk</td>
+                    </tr>
+                    <tr>
+                        <td>Jay Shetty</td>
+                        <td>40 rules of love</td>
+                    </tr>
+                    <tr>
+                        <td>Rachel Carson</td>
+                        <td>Silent spring</td>
+                    </tr>
+                    <tr>
+                        <td>Naomi Klein</td>
+                        <td>No logo</td>
+                    </tr>
+                    <tr>
+                        <td>Barack Obama</td>
+                        <td>Dreams from my father</td>
+                    </tr>
+                    <tr>
+                        <td>Tom Wolfe</td>
+                        <td>The right stuff</td>
+                    </tr>
+                    <tr>
+                        <td>Stephan Hawking</td>
+                        <td>A brief history of time</td>
+                    </tr>
+                    <tr>
+                        <td>Ted Hughes</td>
+                        <td>Birthday letters</td>
+                    </tr>
+                    
+                </tbody>
+                
+            </table>
+            <br>
+            <a href="" class="hero-btn red-btn">EXPLORE BOOKS</a>
+        </div>
+        <div class="fiction-col">
+            <img src="images/non-table.jpg">
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>This is an online site which guides fellow readers, beginners and all the other young adults to connect<br>with the world of reading. We have sorted 5 star reads from all over<br>the world in all genres for our readers. Also, we aim at bringing the trend<br>of reading back again in our youth.</p>
+    <p><i>Made by <b>Vanshita</b> </i></p>
+</section>
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";    
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+</body>
+</html>

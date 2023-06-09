@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Website for Book-Readers!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair&family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/my_logo.png"></a>
+            <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onlick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="fiction.html">FICTION</a></li>
+                    <li><a href="non-fiction.html">NON-FICTION</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>    
+        </nav>
+<div class="text-box">
+    <h1>Your-Book Guide</h1>
+    <p><i>The ultimate guide for young adults to choose their next read!</i></p>
+    <a href="" class="hero-btn">Visit Us To Know More</a>
+</div>
+    </section>   
+
+<section class="choice">
+    <h1>Choices We Offer</h1>
+    <p>"There is no friend as loyal as a book." ~Ernest Hemingway</p>
+
+    <div class="row">
+        <div class="choice-col">
+            <h3>Fiction</h3>
+            <p><i>If you like escaping the real world and enter the worlds of some fictious characters, go through their character-building, blindsiding plot-twists and an emotional roller-coaster, then this genre is the one for you.</i></p>
+        </div>
+        <div class="choice-col">
+            <h3>Non-Fiction</h3>
+            <p><i>If you like diving deep into the real world philosophies, truths, spiritualism and history, then non-fiction is the one for you. You can also get inspired by life stories of great leaders.</i></p>
+        </div>
+        <div class="choice-col">
+            <h3>Both</h3>
+            <p><i>If you don't have a specific type yet, or you're a beginner, or you like reading all genres of books, then you can pick out 5-star reads of both fiction and non-fiction to help you in the process of reading.</i></p>
+        </div>
+    </div>
+</section>
+
+<section class="coverage">
+    <h1>Our Coverage Area</h1>
+    <p>We cover authors from all over the world residing in different major continents. They are stated below:</p>
+    
+    <div class="row">
+        <div class="course-col">
+            <img src="images/Asia.jpg">
+            <div class="layer">
+                <h3>ASIA</h3>
+            </div>
+        </div>
+        <div class="course-col">
+            <img src="images/usa.jpg">
+            <div class="layer">
+                <h3>AMERICA</h3>
+            </div>
+        </div>
+        <div class="course-col">
+            <img src="images/Europe.jpg">
+            <div class="layer">
+                <h3>EUROPE</h3>
+            </div>
+        </div>
+    </div>
+</section>   
+
+<section class="offer">
+    <h1>What We Offer</h1>
+    <p>Here's a look at what we aim to offer to our lovely readers:</p>
+    <div class="row">
+        <div class="offer-col">
+            <img src="images/genres_select.jpg">
+            <h3>Genres To Select From</h3>
+            <p><i>Sometimes,readers are stuck at finding the best pick for themselves, we help them get directed towards books which match their interests the most.</i></p>
+        </div>      
+    
+        <div class="offer-col">
+            <img src="images/importanceee.jpg">
+            <h3>Importance Of Reading</h3>
+            <p><i>Despite being one of the biggest sources of enjoyment, reading also proves to be beneficial for young adults in a lot of ways. We've pointed out some of our views.</i></p>  
+        </div>
+        <div class="offer-col">
+            <img src="images/begin.jpg">
+            <h3>How To Begin</h3>
+            <p><i>Well all of us find it tough to guide ourselves when we indulge in some new activity. Here, we provide tips for our beginner fellows.</i></p>  
+        </div>
+    </div>
+</section>
+
+<section class="testimonials">
+    <h1>What our visitors say</h1>
+    <p>Once you fall in love with reading, you can never come out of it. Here is what our frequent visitors have to say.</p>
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="images/user1.jpg">
+            <div>
+                <p>This site helped me find the best books I've ever read. It made me save so much of my time in finding good reads and also my money.</p>
+                <h3>Christine Berkley</h3>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="images/user2.jpg">
+            <div>
+                <p>I was a complete infant to this world of reading a few months ago, when I found this site. It helped me navigate my way through it and now I love reading.This site saved me from gettig in a reading slump.</p>
+                <h3>David Byer</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cta">
+    <h1>Feel free to give your suggestions for our book collection<br>Anywhere from the world!</h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+</section>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>This is an online site which guides fellow readers, beginners and all the other young adults to connect<br>with the world of reading. We have sorted 5 star reads from all over<br>the world in all genres for our readers. Also, we aim at bringing the trend<br>of reading back again in our youth.</p>
+    <p><i>Made by <b>Vanshita</b> </i></p>
+</section>
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";    
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+</body>
+</html>
